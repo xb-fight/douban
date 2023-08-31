@@ -1,0 +1,744 @@
+@import "./reset.css";
+@import "./common.css";
+@import "./font_4021522_3q5mi2lzczo.css";
+
+body {
+    width: 1264px;
+    font: 12px Helvetica, Arial, sans-serif;
+}
+
+header {
+    background: #EDF4EC;
+}
+
+header>.top {
+    height: 32px;
+    background: url("../assets/img/logo_db@2x.png") no-repeat;
+    background-size: 128px;
+}
+
+header>.top>#logo {
+    display: block;
+    width: 128px;
+    height: 32px;
+
+}
+
+header>.main {
+    background-color: #FFFFFF;
+    padding: 28px 0 28px 0;
+}
+
+header>.main>.title {
+    height: 32px;
+    line-height: 32px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #2D8A3B;
+    float: left;
+    margin-right: 28px;
+    padding-left:.5em;
+}
+
+
+header>.main>.search-box {
+    float: left;
+    margin-right: 192px;
+    height: 32px;
+    padding: 0 10px 0 0;
+    position: relative;
+    border: 1px solid #ccc;
+    padding-top: 2px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+header>.main>.search-box>input {
+    margin-top: 5px;
+    margin-left: .5em;
+    width: 255px;
+}
+header>.main>.search-box>button{
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+header>.main>.search-box>button:active{
+    background-color:#0001;
+}
+
+header>.main>.search-box>button>i {
+    width: 32px;
+    line-height: 32px;
+}
+
+
+
+header>.main>nav {
+    float: left;
+    font-size: 1.5em;
+    height: 32px;
+    padding: 6px 0;
+}
+
+header>.main>nav li {
+    float: left;
+    width: 40px;
+    height: 20px;
+    margin: 0 9px;
+    background: url("../assets/img/anony_nav_logo@2x.png") no-repeat;
+    background-size: auto 20px;
+}
+
+
+
+header>.main>nav li:nth-child(2) {
+    background-position: -62px 0;
+}
+
+header>.main>nav li:nth-child(3) {
+    background-position: -124px 0;
+}
+
+header>.main>nav li:nth-child(4) {
+    background-position: -186px 0;
+}
+
+header>.main>nav li:nth-child(5) {
+    background-position: -248px 0;
+}
+
+header>.main>nav li:nth-child(6) {
+    background-position: -308px 0;
+}
+
+header>.main>nav li:nth-child(7) {
+    background-position: -372px 0;
+}
+
+header>.main>nav li:nth-child(8) {
+    background: url('../assets/img/ic_shijian_home_nav@2x.png') no-repeat 0 0/auto 20px;
+}
+
+header>.main>nav li:nth-child(9) {
+    background-position: -433px 0;
+}
+
+
+.wrapper {
+    background: url('../assets/img/1771365ca98ig9er706.jpg') no-repeat 0 0/auto 309px;
+    /* margin: 0 auto; */
+    height: 304px;
+    margin-bottom: 40px;
+    padding: 0 167px;
+    background-color: #EDF4ED;
+    position: relative;
+}
+
+.wrapper>.login {
+    box-sizing: border-box;
+    width: 300px;
+    padding: 0 10px;
+    float: right;
+}
+
+.wrapper .login .login-message {
+    position: relative;
+    overflow: hidden;
+    display: none;
+}
+
+
+
+.wrapper>.login .OR {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+.wrapper>.login .OR>.OR-link {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: url('../assets/img/下载.png') no-repeat;
+    background-size: 30px;
+}
+
+.wrapper>.login .title {
+    font-size: 12px;
+    margin-top: 25px;
+    border-bottom: 1px solid #ECEEEC;
+}
+
+
+.wrapper>.login .login-message>.title>.left {
+    width: 50%;
+    text-align: center;
+    box-sizing: border-box;
+    border-bottom: 1px solid#000;
+    padding-bottom: 8px;
+    font-weight: bold;
+}
+
+.wrapper>.login .login-message>.title>.right {
+    width: 50%;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+.wrapper>.login .login-message>.tip {
+    text-align: center;
+    margin: 16px 0;
+}
+
+.wrapper>.login .login-message>.tip a {
+    color: #43AD54;
+}
+
+
+.wrapper>.login .login-message>.phone-number {
+    margin-bottom: 12px;
+    height: 32px;
+    width: 100%;
+    border: 1px solid #fff;
+}
+
+.wrapper>.login .login-message>.phone-number>.choose-contry {
+    width: 52px;
+    height: 100%;
+    line-height: 32px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+
+.wrapper>.login .login-message>.phone-number>.number-input {
+    padding: 9px;
+
+}
+
+
+.wrapper>.login .login-message>.verify {
+    width: 100%;
+    height: 32px;
+    position: relative;
+}
+
+.wrapper>.login .login-message>.verify>.veri-code {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding-left: 15px;
+}
+
+.wrapper>.login .login-message>.verify>.veri-code::placeholder {
+    font-weight: bold;
+    color: #7D7D7D;
+}
+
+.wrapper>.login .login-message>.verify>.p-tip {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    color: #4DB15D;
+    font-size: 16px;
+}
+
+.wrapper>.login .login-message>.submit {
+    width: 100%;
+    height: 34px;
+    background-color: #41AC52;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 12px 0;
+    border-radius: 6px;
+}
+
+.wrapper>.login .login-message .wrong-comtainer {
+    border-bottom: 1px solid #fefffe;
+}
+
+
+.wrapper>.login .login-message .wrong-tip {
+    font-size: 16px;
+    font-weight: 400;
+    color: #41AC52;
+    padding-right: 10px;
+    margin-bottom: 18px;
+}
+
+.wrapper>.login .login-message .foot {
+    width: 100%;
+    height: 32px;
+}
+
+.wrapper>.login .login-message .foot label {
+    color: #9FA09F;
+    line-height: 32px;
+}
+
+.wrapper>.login .login-message .foot .icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 32px;
+}
+
+
+.wrapper .login .login-password {
+    position: relative;
+    overflow: hidden;
+    display: none;
+}
+
+
+.wrapper>.login .login-password>.title>.left {
+    width: 50%;
+    text-align: center;
+    box-sizing: border-box;
+
+    padding-bottom: 8px;
+    font-weight: bold;
+}
+
+.wrapper>.login .login-password>.title>.right {
+    width: 50%;
+    padding-bottom: 8px;
+    text-align: center;
+    border-bottom: 1px solid#000;
+}
+
+.wrapper>.login .login-password .find-password {
+    margin: 16px 0;
+}
+
+.wrapper>.login .login-password .find-password>a {
+    float: right;
+    margin-right: 6px;
+    color: #41AC52;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.wrapper>.login .login-password .information {
+    width: 100%;
+}
+
+.wrapper>.login .login-password .information .username {
+    width: 100%;
+    height: 32px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    padding-left: 1em;
+    border: 1px solid #e4e6e5;
+}
+
+.wrapper>.login .login-password .information .password {
+    width: 100%;
+    height: 32px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    padding-left: 1em;
+    border: 1px solid #e4e6e5;
+}
+
+
+.wrapper>.login .login-password .submit {
+    width: 100%;
+    height: 34px;
+    background-color: #41AC52;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 0 12px;
+    border-radius: 6px;
+}
+
+.wrapper>.login .login-password .foreign-login {
+    border-bottom: 1px solid #fefffe;
+}
+
+
+.wrapper>.login .login-password .foreign-login .foreign-user {
+    font-size: 16px;
+    font-weight: 400;
+    color: #41AC52;
+    padding-right: 10px;
+    margin-bottom: 9px;
+}
+
+.wrapper>.login .login-password .foot label {
+    color: #9FA09F;
+    line-height: 32px;
+}
+
+.wrapper>.login .login-password .foot .icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 32px;
+}
+
+
+.login .OR-login {
+    width: 100%;
+    height: 304px;
+    background-color: #fff;
+}
+
+.login .OR-login .graph {
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    background: url('../assets/img/下载.png') no-repeat right/30px;
+
+}
+
+.login .OR-login .graph>a {
+    float: right;
+    width: 30px;
+    height: 30px;
+}
+
+.login .OR-login .title {
+    width: 100%;
+    font: normal 13px/1.618 Helvetica,
+        Arial,
+        Hiragino Sans GB,
+        Microsoft YaHei,
+        WenQuanYi Micro Hei,
+        sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    margin-top: -12px;
+    border-bottom: 1px solid rgb(217, 212, 212);
+    margin-bottom: 0.2em;
+
+}
+
+
+.wrapper .login .OR-login .OR-code {
+    width: 100%;
+    margin: 12px 0;
+    text-align: center;
+}
+
+.wrapper .login .OR-login .OR-code>img {
+    width: 75%;
+}
+
+.wrapper .login .OR-login .tip {
+    text-align: center;
+    font-size: 14px;
+    background-color: #DAE1DA;
+    margin: 0 .5em;
+    border-radius: 15px;
+}
+
+.wrapper .login .OR-login .tip>span {
+    color: #2D8A3B;
+}
+
+
+.wrapper .app {
+    position: absolute;
+    top: 96px;
+    left: 612px;
+    ;
+
+}
+
+.wrapper .app>p {
+    font-size: 25px;
+    margin: 15px 0;
+}
+
+
+.wrapper .app .download {
+    text-align: left;
+    color: #DAE1DA;
+    background-color: #2D8A3B;
+    font-size: 25px;
+    padding: 10px;
+}
+
+
+.article {
+    width: 1050px;
+    margin: 32px auto;
+}
+
+
+.article .left {
+    width: 354px;
+
+}
+
+.article .right {
+    width: 254px;
+
+}
+
+.article .main {
+    overflow: hidden;
+
+}
+
+
+.article .left .title {
+    font-size: 16px;
+    color: #449b5d;
+}
+
+.article .left .title>a {
+    font-size: 8px;
+    color: #5192c0;
+    cursor: pointer;
+}
+
+.article .left .item {
+    float: left;
+    margin: 10px 3px;
+}
+
+
+.article .left .item>p {
+    font-size: 8px;
+    color: #999;
+}
+
+.article .left .item>p>a {
+    font-size: 12px;
+    color: #37a;
+    cursor: pointer;
+}
+
+.article .left .item>p>a:hover {
+    background-color: #37a;
+    color: #fff;
+}
+
+.article .main {
+    width: 423px;
+    margin: O auto;
+    margin-top: 50px;
+}
+
+
+.article .main .text {
+    color: #37a;
+    font-size: 12px;
+    padding: 1.2em 0;
+}
+
+.article .main .text-detail>p {
+    color: #999;
+}
+
+.article .main .text>a:hover {
+    background-color: #37a;
+    color: #fff;
+}
+
+.article .right .img {
+    position: relative;
+    width: 300px;
+}
+
+.article .right .img .ad {
+    font-size: 16px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    right: 0;
+    bottom: 0;
+}
+
+.article .right .img>img {
+    width: 100%;
+}
+
+.article .right .title {
+    font-size: 16px;
+    color: #2D8A3B;
+}
+
+.article .right .title>p>a {
+    font-size: 12px;
+    color: #37a;
+}
+
+.article .right .title>p>a:hover {
+    background-color: #37a;
+    color: #fff;
+    cursor: pointer;
+}
+
+.article .right .topic-list>li {
+    margin: 1em;
+}
+
+.article .right .topic-list>li>a {
+    font-size: 16px;
+    color: #37a;
+}
+
+.article .right .topic-list>li>a:hover {
+    background-color: #37a;
+    color: #fff;
+    cursor: pointer;
+}
+
+.article .right .topic-list>li>p {
+    font-size: 12px;
+    color: #999;
+}
+
+
+.douban-time {
+    background-color: #f7f7f7;
+}
+
+.douban-time .container {
+    width: 880px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+.douban-time .left {
+    width: 220px;
+    text-align: right;
+    margin-right: 20px;
+
+}
+
+.douban-time .left>h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #494949;
+}
+
+.douban-time .books {
+    overflow: hidden;
+    margin: 10px;
+}
+
+
+.douban-time .books .tab>p {
+    font-size: 16px;
+    color: #2D8A3B;
+}
+
+.douban-time .books .tab .hot-link {
+    font-size: 12px;
+    color: #37a;
+    padding: 0 0.5em;
+}
+
+.douban-time .books .tab .hot-link:hover {
+    background-color: #37a;
+    color: #fff;
+
+}
+
+.douban-time .books .book-item {
+    width: 100px;
+    position: relative;
+    margin: 20px 10px;
+}
+
+
+.douban-time .books .book-item .book-img {
+    width: 100px;
+}
+
+.douban-time .books .book-item .book-name {
+    text-align: center;
+    font-size: 16px;
+}
+
+.douban-time .books .book-item .book-name>a:hover {
+    background-color: #37a;
+    color: #fff;
+}
+
+.douban-time .books .book-item .classify {
+    color: #999;
+    text-align: center;
+}
+
+.douban-time .books .book-item .logo {
+    width: 20px;
+    opacity: 0.7;
+    position: absolute;
+    top: 120px;
+    right: 5px;
+}
+
+.footer {
+    width: 100%;
+    background-color: #fff;
+    font-size: 12px;
+    color: #999;
+}
+
+
+.footer .contanier {
+    width: 880px;
+    margin: 20px auto;
+    border-top: 1px dashed #dcdcdc;
+    height: 200px;
+}
+
+.footer .contanier .licese .licese-list>li {
+    display: inline-block;
+    padding: 0.5em;
+    border-left: 2px solid #999;
+}
+
+.footer .contanier .licese .licese-list>li:first-child {
+    border-left: none;
+}
+
+.footer .contanier a {
+    color: #37a;
+}
+
+.footer .contanier a:hover {
+    background-color: #37a;
+    color: #fff;
+}
+
+
+.footer .contanier img {
+    width: 15px;
+    vertical-align: middle;
+}
+
+
+.footer .contanier .end {
+    text-align: right;
+}
+
+.footer .contanier .end>ul>li {
+    display: inline-block;
+}
+
+.footer .contanier .end>ul>li::after {
+    content: "-";
+}
+
+.footer .contanier .end>ul>li:last-child::after {
+    content: '';
+}
